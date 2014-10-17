@@ -12,3 +12,7 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+userTemp = int(input("Please enter a temperature in Celcius."))
+print "Your temperature converted to Farenheit is"
+print userTemp (* 9) (/ 5) (+ 32)
