@@ -13,3 +13,15 @@
 # - A temperature of over 105F
 # - A temperature of over 102F and they have been sick in the last 24 hours
 # - A temperature over 100, OR they've been sick in the last 24 hours, AND they've recently travelled to West Africa.
+print "What is your temperature?"
+humanTemperature = raw_input()
+if humanTemperature <= 105:
+    print "Have you been sick in the past 24 hours?"
+else:
+    print "You do not need to be admitted to the hospital."
+userSicktime = raw_input()
+if userSicktime is 'yes':
+    print "Have you recently traveled to West Africa?"
+else:
+    print "You only have a fever"
+    
